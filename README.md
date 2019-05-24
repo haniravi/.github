@@ -5,19 +5,17 @@
 
 Dedicated repository for GitHub organization guidelines and related content.
 
+
 ### Getting Started
 
 [Community health files](https://help.github.com/en/articles/creating-a-default-community-health-file-for-your-organization) in `.github/` directory customize repository templates for issues, pull requests and contributions. GitHub will use and display this files for any public repository in the organization that does not have its own file of that type.
-
-other common files' examples _may_ be found in `templates/` directory.
 
 Additional GitHub-related data (e.g. cheat-sheets, bookmarks) _may_ be found on Wiki.
 
 
 ## Contents
 
-
-#### `CODE_OF_CONDUCT` [:page_facing_up:](/.github/CODE_OF_CONDUCT.md)
+#### `CODE_OF_CONDUCT` [:page_with_curl:](/.github/CODE_OF_CONDUCT.md)
 
 > Defines standards for how to engage in a community.
 
@@ -52,7 +50,13 @@ Additional GitHub-related data (e.g. cheat-sheets, bookmarks) _may_ be found on 
 * [Awesome GitHub Templates For Pull Requests](https://github.com/devspace/awesome-github-templates#rocket-templates-for-pull-requests)
 
 
-#### `README` [:page_facing_up:](/templates/README.md)
+### Other Notable Files
+
+Following is list of files essential to a repository (in various degree) but not fit to this repository (for various reasons).
+
+They _should_ be available as templates in a boilerplate repository.
+
+#### `README` [:page_with_curl:](/templates/README.md)
 
 > Primary document covering repository.
 
@@ -93,14 +97,19 @@ contributions
 * [Keep a Changelog](http://keepachangelog.com/)
 
 
-#### `CONTRIBUTORS` [:page_with_curl:](/.github/CONTRIBUTING.md)
+#### `CONTRIBUTORS` [:page_with_curl:](/templates/CONTRIBUTORS.md)
 
 > Publicly recognize contributors
 
 * [All Contributors](https://github.com/kentcdodds/all-contributors/)
 * [All Contributors (CLI)](https://github.com/jfmengels/all-contributors-cli)
 
-
 ---
 
+### Footnotes
+
 This is a WORK IN PROGRESS. Help make it better by [submitting an issue](https://github.com/haniravi/.github/issues/new).
+
+### License
+
+[MIT License](/LICENSE)
