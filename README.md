@@ -109,3 +109,7 @@ contributions
 ### Footnotes
 
 This is a WORK IN PROGRESS. Help make it better by [submitting an issue](https://github.com/haniravi/.github/issues/new).
+
+### License
+
+[MIT License](/LICENSE)
