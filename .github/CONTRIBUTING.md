@@ -14,12 +14,17 @@
 
 > Based on [GitHub Flow](https://guides.github.com/introduction/flow/)
 
+> There are key points to consider to adapt strategy
+> - There will be one contributer - extra precautions _may_ be useless
+> - 
+> - Using _monorepo_ structure - extra semantics _may_ be convenient
+
 - Anything in the `develop` branch is deployable
 - To work on something new, create a descriptively named branch off of `develop` (ie: new-oauth2-scopes)
 - Commit to that branch locally and regularly push your work to the same named branch on the server
 - When you need feedback or help, or you think the branch is ready for merging, open a pull request
 - ~~After someone else has reviewed and signed off on the feature,~~ you can merge it into `develop`
-- ~~Once it is merged and pushed to `develop`, you can and should deploy immediately~~
+- Once it is merged and pushed to `develop`, you can ~~and should~~ deploy immediately
 - Use `master` branch for branding, e.g. tagged releases, GitHub pages, etc.
 
 ##### Environment branches
