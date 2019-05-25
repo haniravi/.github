@@ -16,11 +16,10 @@
 
 > There are key points to consider to adapt strategy
 > - There will be one contributer - extra precautions _may_ be useless
-> - 
 > - Using _monorepo_ structure - extra semantics _may_ be convenient
 
 - Anything in the `develop` branch is deployable
-- To work on something new, create a descriptively named branch off of `develop` (ie: new-oauth2-scopes)
+- To work on something new, create a descriptively named branch off of `develop`
 - Commit to that branch locally and regularly push your work to the same named branch on the server
 - When you need feedback or help, or you think the branch is ready for merging, open a pull request
 - ~~After someone else has reviewed and signed off on the feature,~~ you can merge it into `develop`
@@ -39,14 +38,21 @@
 - Choose short and descriptive names (e.g `refactor-authentication`)
 - Consider prefixing branches for specific packages (as in monorepo) w/ package id
 
-#### Notes
+#### Footnotes
 
-- https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows
-- https://backlog.com/git-tutorial/using-branches/ - Not suitable strategy by
-  good example of documentation
-- https://github.com/agis/git-style-guide
-- https://gist.github.com/jbenet/ee6c9ac48068889b0912
-- https://softwareengineering.stackexchange.com/questions/263164/why-squash-git-commits-for-pull-requests
+> General knowledge
+
+* https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows
+
+> Guidelines
+
+* https://github.com/agis/git-style-guide
+* https://gist.github.com/jbenet/ee6c9ac48068889b0912
+
+> Notable resources
+
+* [Using Branches](https://backlog.com/git-tutorial/using-branches/) - Good example of documentation, *form over content*
+* https://softwareengineering.stackexchange.com/questions/263164/why-squash-git-commits-for-pull-requests
 
 ### Commits
 
