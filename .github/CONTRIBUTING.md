@@ -24,11 +24,13 @@
 <footer>
 ```
 
-##### Subject (first line)
+##### `<subject>`
 
 Imperative, present tense summary under 50 characters.
 
-> Allowed `<type>` values:
+##### `<type>`
+
+> Allowed values:
 
 - `feat` - feature
 - `fix` - bug fix
@@ -38,7 +40,7 @@ Imperative, present tense summary under 50 characters.
 - `test` - adding missing tests, refactoring tests; no production code change
 - `chore` - maintain; no production code change
 
-> Examples
+> Example usage
 
 ```
 chore: add Oyster build script
@@ -50,11 +52,11 @@ style: convert tabs to spaces
 test: ensure Tayne retains clothing
 ```
 
-##### Body
+##### `<body>`
 
 The body should provide a meaningful commit message, which includes motivation for the change, and contrasts its implementation with previous behaviour.
 
-##### Footer
+##### `<footer>`
 
 Closed bugs should be listed on a separate line in the footer prefixed with "Closes" keyword
 
