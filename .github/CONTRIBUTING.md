@@ -12,6 +12,37 @@
 
 ### Branching strategy
 
+> Based on [GitHub Flow](https://guides.github.com/introduction/flow/)
+
+- Anything in the `develop` branch is deployable
+- To work on something new, create a descriptively named branch off of `develop` (ie: new-oauth2-scopes)
+- Commit to that branch locally and regularly push your work to the same named branch on the server
+- When you need feedback or help, or you think the branch is ready for merging, open a pull request
+- ~~After someone else has reviewed and signed off on the feature,~~ you can merge it into `develop`
+- ~~Once it is merged and pushed to `develop`, you can and should deploy immediately~~
+- Use `master` branch for branding, e.g. tagged releases, GitHub pages, etc.
+
+##### Environment branches
+
+- `master` - for production
+- `develop` - for integration
+
+##### Topic branches
+
+> Naming conventions
+
+- Choose short and descriptive names (e.g `refactor-authentication`)
+- Consider prefixing branches for specific packages (as in monorepo) w/ package id
+
+#### Notes
+
+- https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows
+- https://backlog.com/git-tutorial/using-branches/ - Not suitable strategy by
+  good example of documentation
+- https://github.com/agis/git-style-guide
+- https://gist.github.com/jbenet/ee6c9ac48068889b0912
+- https://softwareengineering.stackexchange.com/questions/263164/why-squash-git-commits-for-pull-requests
+
 ### Commits
 
 > Format of messages
